@@ -1,0 +1,15 @@
+[book]
+authors = ["PilgrimLyieu"]
+language = "zh-CN"
+multilingual = false
+src = "src"
+title = "NeoNotes"
+description = "使用 mdBook 构建的课程笔记"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "rust"
+mathjax-support = true
+
+[output.html.fold]
+enable = true
