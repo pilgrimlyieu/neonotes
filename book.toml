@@ -6,10 +6,12 @@ src = "src"
 title = "NeoNotes"
 description = "使用 mdBook 构建的课程笔记"
 
+[build]
+create-missing = false
+
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "rust"
-mathjax-support = true
 
 [output.html.fold]
 enable = true
